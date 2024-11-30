@@ -44,7 +44,7 @@ public class MyString {
         if ((str1.length() < str2.length())) {
             return false;
         }
-        for (int i=0; i<str1.length(); i++){
+        for (int i=0; i<=str1.length() - str2.length(); i++){
             if (fromThisChar(i, str1, str2) == true) {
                 return true;
             }
