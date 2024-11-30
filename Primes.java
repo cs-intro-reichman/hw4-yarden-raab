@@ -13,6 +13,7 @@ public class Primes {
                 mult(i, arr);
             }
         }
+        System.out.println("Prime numbers up to " + length + ":");
         for (int i=0; i<arr.length; i++) {
             if (arr[i] == true) {
                 System.out.println(i);
